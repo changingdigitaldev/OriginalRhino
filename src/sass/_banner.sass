@@ -1,0 +1,343 @@
+.t-or-ms1-mh-banner
+	position: relative
+	background-color: #212121
+	margin-top: 70px
+
+	@media screen and (max-width: 768px)
+		margin-top: 58px
+
+.t-or-ms1-mh-banner-inner
+	height: 844px
+	position: relative
+	overflow: hidden
+	padding-top: 124px
+
+	@media screen and (max-width: 768px)
+		padding: 200px 20px 0
+		height: 748px
+
+	img
+		width: 100%
+
+.t-or-ms1-mh-banner-stars
+	position: absolute
+	top: 0
+	left: 50%
+	transform: translateX(-50%)
+	background-position: center
+	height: 394px
+	width: 100%
+	// opacity: 0
+
+.t-or-ms1-mh-banner-shooting-stars
+	position: absolute
+	top: 0
+	left: 50%
+	transform: translateX(-50%)
+	background-position: center
+	background-repeat: no-repeat
+	height: 345px
+	width: 1366px
+
+	@media screen and (max-width: 768px)
+		width: 100%
+		left: 0
+		transform: none
+		height: 425px
+
+	span
+		display: inline-block
+		width: 161px
+		height: 122px
+		background-size: contain
+		background-position: center
+		position: absolute
+		// opacity: 0
+		// transform: translate(100px, -100px)
+
+		&:nth-of-type(1)
+			width: 230px
+			height: 174px
+			top: 0
+			left: 135px
+
+			@media screen and (max-width: 768px)
+				width: 161px
+				height: 122px
+				top: -37px
+				left: 161px
+
+		&:nth-of-type(2)
+			top: 159px
+			left: 64px
+
+			@media screen and (max-width: 768px)
+				top: 51px
+				left: 0
+
+		&:nth-of-type(3)
+			top: 187px
+			right: 64px
+
+			@media screen and (max-width: 768px)
+				top: 88px
+
+		&:nth-of-type(4)
+			top: 224px
+			right: 288px
+
+			@media screen and (max-width: 768px)
+				top: 275px
+				right: 30px
+
+.t-or-ms1-mh-banner-moon
+	position: absolute
+	top: 0
+	right: 21%
+	width: 256px
+	height: 254px
+	background-position: center
+	background-size: contain
+	// opacity: 0
+	// transform: translateY(-100px)
+
+	@media screen and (max-width: 1560px)
+		right: 10%
+
+	@media screen and (max-width: 1366px)
+		right: 0
+
+	@media screen and (max-width: 768px)
+		width: 159px
+		height: 158px
+		top: 5px
+
+.t-or-ms1-mh-banner-mountain
+	position: absolute
+	width: 100%
+	bottom: -165px
+	// transform: translateY(-60px)
+	// opacity: 0
+
+.t-or-ms1-mh-banner-trees
+	position: absolute
+	width: 100%
+	bottom: 0
+	// opacity: 0
+
+.t-or-ms1-mh-banner-leaves
+	position: absolute
+	bottom: -7px
+	width: 100%
+
+.t-or-ms1-mh-banner-curve
+	position: absolute
+	bottom: -3px
+	left: 0
+	width: 101%
+	z-index: 1
+	pointer-events: none
+
+.t-or-ms1-mh-banner-mountain,
+.t-or-ms1-mh-banner-trees,
+.t-or-ms1-mh-banner-leaves,
+.t-or-ms1-mh-banner-curve
+	@media screen and (max-width: 1366px)
+		width: 1366px
+		left: calc(50% - 683px)
+
+.t-or-ms1-mh-banner-r1
+	position: relative
+	z-index: 1
+	transform-origin: center
+	text-align: center
+	// transform: rotate(16deg)
+	// opacity: 0
+
+	h2
+		text-align: center
+		font-size: 63px
+		font-weight: 800
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		color: $white
+		text-transform: uppercase
+
+		@media screen and (max-width: 768px)
+			font-size: 40px
+
+		@media screen and (max-width: 435px)
+			font-size: 35px
+
+.t-or-ms1-mh-banner-logo
+	width: 100%
+	flex-shrink: 0
+	margin: 40px auto 0
+	display: flex
+	align-items: center
+	justify-content: center
+
+	@media screen and (max-width: 768px)
+		margin-top: 0
+		transform: scale(0.6)
+
+	@media screen and (max-width: 435px)
+		transform: scale(0.43)
+
+	span
+		display: inline-block
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+		height: 68px
+		margin: 0 4px
+		flex-shrink: 0
+
+		&.is-animate
+			animation: pop 0.5s ease-in-out forwards
+
+		&:nth-of-type(1)
+			width: 68px
+
+		&:nth-of-type(2)
+			width: 42px
+
+		&:nth-of-type(3)
+			width: 7px
+
+		&:nth-of-type(4)
+			width: 66px
+
+		&:nth-of-type(5)
+			width: 7px
+
+		&:nth-of-type(6)
+			width: 51px
+
+		&:nth-of-type(7)
+			width: 56px
+
+		&:nth-of-type(8)
+			width: 38px
+
+		&:nth-of-type(9)
+			width: 53px
+
+		&:nth-of-type(10)
+			width: 58px
+
+		&:nth-of-type(11)
+			width: 17px
+
+		&:nth-of-type(12)
+			width: 59px
+
+		&:nth-of-type(13)
+			width: 71px
+			
+
+
+.letters
+
+	@media screen and (max-width: 768px)
+		transform: scale(0.6)
+		display: flex
+		justify-content: center
+		align-items: center
+
+.letter
+	display: inline-block
+	background-repeat: no-repeat
+	vertical-align: middle
+	transition: background-position 300ms ease-in-out
+	margin: 0 1px
+	flex-shrink: 0
+
+	@media screen and (max-width: 768px)
+		margin: 0 3px
+
+.letter-w,
+.letter-l,
+.letter-o,
+.letter-e,
+	background-position: top left
+
+	&:hover
+		background-position: bottom left
+
+.letter-w,
+.letter-l,
+.letter-e,
+.letter-m,
+.letter-t
+	height: 44px
+
+.letter-c,
+.letter-m,
+.letter-t
+	background-position: top left
+
+	&:hover
+		background-position: top right
+
+.letter-w
+	width: 74px
+
+.letter-e
+	width: 37px
+
+.letter-t
+	width: 41px
+
+.letter-l
+	width: 36px
+
+.letter-o
+	width: 49px
+	height: 46px
+
+.letter-c
+	width: 45px
+	height: 47px
+
+.letter-m
+	width: 52px
+
+.fliptop
+	background-position: bottom left
+
+.flipside
+	background-position: top right
+
+.t-or-ms1-mh-banner-r2
+	text-align: center
+	font-weight: 800
+	font-size: 63px
+	color: #fff
+	text-transform: uppercase
+	position: absolute
+	top: 110px
+	width: 100%
+	transform: translateY(-150px)
+	opacity: 0
+
+	.supercharged
+		color: $primary
+		display: flex
+		justify-content: center
+		align-items: center
+
+		span
+			flex-shrink: 0
+
+			&.is-animate
+				animation: pop 0.4s ease-in-out forwards
+
+@keyframes pop
+	0%,
+	100%
+		transform: scale(1)
+	50%
+		transform: scale(1.3)

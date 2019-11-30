@@ -1,0 +1,135 @@
+.t-or-ms1-mh-eyecatch
+	background-color: $gray
+
+.t-or-ms1-mh-eyecatch-r1
+	padding-top: 60px
+	margin-bottom: 50px
+	// transform: translateY(200px)
+	// opacity: 0
+	transition-property: transform, opacity
+	transition-duration: 1s
+	transition-timing-function: ease-out
+
+	.is-active &
+		opacity: 1
+		transform: translateY(0)
+
+	h2
+		color: $white
+		font-size: 35px
+		font-weight: 800
+		white-space: pre-line
+		text-align: center
+		letter-spacing: -0.03em
+
+		@media screen and (max-width: 768px)
+			font-size: 30px
+
+		@media screen and (max-width: 500px)
+			font-size: 25px
+			text-align: left
+			white-space: normal
+		
+		span
+			color: $primary
+
+			@media screen and (max-width: 500px)
+				display: block
+
+			span
+				color: $white
+				display: inline-block
+		
+
+.t-or-ms1-mh-eyecatch-r2
+	text-align: center
+	padding-bottom: 66px
+	position: relative
+	color: $white
+	transition-delay: 0.5s
+	// transform: translateY(200px)
+	// opacity: 0
+	transition-property: transform, opacity
+	transition-duration: 1s
+	transition-timing-function: ease-out
+
+	.is-active &
+		opacity: 1
+		transform: translateY(0)
+
+	ul
+		position: absolute
+
+		@media screen and (max-width: 768px)
+			position: static
+			display: inline-block
+			vertical-align: top
+			margin: 0 10px
+
+		@media screen and (max-width: 500px)
+			margin: 0
+			display: block
+
+
+		&:nth-of-type(1)
+			top: 131px
+			left: -27px
+
+			li:nth-of-type(2)
+				margin-right: 13px
+
+				@media screen and (max-width: 768px)
+					margin-right: 0
+
+			li:nth-of-type(3)
+				left: 30px
+
+				@media screen and (max-width: 768px)
+					left: auto
+
+			li:nth-of-type(4)
+				left: -35px
+
+				@media screen and (max-width: 768px)
+					left: auto
+
+		&:nth-of-type(2)
+			text-align: right
+			right: 14px
+			top: 147px
+
+			@media screen and (max-width: 768px)
+				text-align: left
+
+	li
+		text-transform: uppercase
+		font-size: 35px
+		font-weight: 800
+		position: relative
+		display: block
+		text-align: right
+
+		@media screen and (max-width: 768px)
+			text-align: left
+			font-size: 25px
+
+		&::before
+			position: relative
+			content: ''
+			top: calc(50% - 3.3px)
+			height: 6.6px
+			width: 6.6px
+			background-color: $primary
+			border-radius: 50%
+			display: inline-block
+			vertical-align: middle
+			margin-right: 17px
+			box-shadow: 0 0 0 2px $gray ,0 0 0 4px $primary
+
+	img
+		max-width: 720px
+		width: 100%
+		display: inline-block
+
+		@media screen and (max-width: 768px)
+			margin-top: 30px

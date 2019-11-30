@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_906" data-name="Rectangle 906" width="39" height="39" transform="translate(983 1572)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon4" transform="translate(-983 -1572)" clip-path="url(#clip-path)">
+    <g id="_019-ads" data-name="019-ads" transform="translate(983 1572)">
+      <g id="Group_4351" data-name="Group 4351">
+        <g id="Group_4350" data-name="Group 4350">
+          <path id="Path_8940" data-name="Path 8940" d="M38.429,5.979H35.344V2.742a.571.571,0,0,0-.571-.571H.571A.571.571,0,0,0,0,2.742V27.32a.571.571,0,0,0,1.143,0V7.122H34.2v5.567a.571.571,0,1,0,1.143,0V10.931h2.514V35.687H34.087a.571.571,0,0,0,0,1.143h4.342A.571.571,0,0,0,39,36.258V6.551A.571.571,0,0,0,38.429,5.979Zm-29.9,0H1.143V3.313H8.531Zm25.67,0H9.674V3.313H34.2Zm3.656,3.809H35.344V7.122h2.514Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4353" data-name="Group 4353">
+        <g id="Group_4352" data-name="Group 4352">
+          <path id="Path_8941" data-name="Path 8941" d="M34.772,14.587a.571.571,0,0,0-.571.571v16.72H1.143V29.783a.571.571,0,0,0-1.143,0v2.666a.571.571,0,0,0,.571.571H3.656v3.237a.571.571,0,0,0,.571.571H31.691a.571.571,0,0,0,0-1.143H4.8V33.021H34.772a.571.571,0,0,0,.571-.571V15.158A.571.571,0,0,0,34.772,14.587Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4355" data-name="Group 4355">
+        <g id="Group_4354" data-name="Group 4354">
+          <path id="Path_8942" data-name="Path 8942" d="M23.385,24.769H11.2A2.1,2.1,0,0,0,9.1,26.863v1.523A2.1,2.1,0,0,0,11.2,30.481H23.385a2.1,2.1,0,0,0,2.095-2.095V26.863A2.1,2.1,0,0,0,23.385,24.769Zm.952,3.618a.953.953,0,0,1-.952.952H11.2a.953.953,0,0,1-.952-.952V26.863a.953.953,0,0,1,.952-.952H23.385a.953.953,0,0,1,.952.952Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4357" data-name="Group 4357">
+        <g id="Group_4356" data-name="Group 4356">
+          <circle id="Ellipse_51" data-name="Ellipse 51" cx="0.571" cy="0.571" r="0.571" transform="translate(2.209 4.075)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4359" data-name="Group 4359">
+        <g id="Group_4358" data-name="Group 4358">
+          <circle id="Ellipse_52" data-name="Ellipse 52" cx="0.571" cy="0.571" r="0.571" transform="translate(6.475 4.075)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4361" data-name="Group 4361">
+        <g id="Group_4360" data-name="Group 4360">
+          <circle id="Ellipse_53" data-name="Ellipse 53" cx="0.571" cy="0.571" r="0.571" transform="translate(4.342 4.075)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4363" data-name="Group 4363">
+        <g id="Group_4362" data-name="Group 4362">
+          <path id="Path_8943" data-name="Path 8943" d="M13.664,21.217,10.073,11.163a.571.571,0,0,0-.537-.379h0A.571.571,0,0,0,9,11.16c-.009.025-.908,2.509-1.8,4.977-1.828,5.085-1.828,5.127-1.83,5.267a.571.571,0,0,0,.566.576h.005a.572.572,0,0,0,.559-.453c.061-.207.489-1.417,1.066-3.028H11.48l1.108,3.1a.571.571,0,0,0,1.076-.384Zm-5.686-3.86c.492-1.371,1.044-2.9,1.553-4.313l1.54,4.313Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4365" data-name="Group 4365">
+        <g id="Group_4364" data-name="Group 4364">
+          <path id="Path_8944" data-name="Path 8944" d="M15.085,10.783h-.2a.571.571,0,0,0-.571.571V21.409a.571.571,0,0,0,.571.571h.2a5.6,5.6,0,1,0,0-11.2Zm.375,10.039V11.942a4.456,4.456,0,0,1,0,8.881Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4367" data-name="Group 4367">
+        <g id="Group_4366" data-name="Group 4366">
+          <path id="Path_8945" data-name="Path 8945" d="M25.659,15.615h-1.2a1.683,1.683,0,0,1-1.681-1.681v-.326a1.683,1.683,0,0,1,1.681-1.681h.718a1.683,1.683,0,0,1,1.681,1.681.571.571,0,1,0,1.143,0,2.827,2.827,0,0,0-2.824-2.824h-.718a2.827,2.827,0,0,0-2.824,2.824v.326a2.827,2.827,0,0,0,2.824,2.824h1.2a1.2,1.2,0,0,1,1.195,1.195v1.2a1.683,1.683,0,0,1-1.681,1.681h-.718a1.683,1.683,0,0,1-1.681-1.681V18.8a.571.571,0,0,0-1.143,0v.359a2.827,2.827,0,0,0,2.824,2.824h.718A2.827,2.827,0,0,0,28,19.157v-1.2A2.34,2.34,0,0,0,25.659,15.615Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

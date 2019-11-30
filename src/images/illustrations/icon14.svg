@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_897" data-name="Rectangle 897" width="39" height="39" transform="translate(420 1792)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon14" transform="translate(-420 -1792)" clip-path="url(#clip-path)">
+    <g id="_010-annual-report" data-name="010-annual-report" transform="translate(425.032 1792)">
+      <path id="Path_8901" data-name="Path 8901" d="M28.935,1.258H26.952L27.162,0H18.128l.209,1.258H2.516V3.774H0V39H26.419V36.484h2.516Zm-3.259,0-.42,2.516H20.032l-.42-2.516ZM23.482,7.876a1.242,1.242,0,0,1,.421.93,1.258,1.258,0,0,1-2.516,0,1.242,1.242,0,0,1,.421-.93l.208-.187V5.032h1.258V7.689Zm1.679,29.866H1.258V5.032H2.516V36.484H25.161Zm2.516-2.516H3.774V2.516H18.548l.42,2.516h1.791v2.12a2.516,2.516,0,1,0,3.774,0V5.032h1.791l.42-2.516h.935Zm0,0" fill="#fff"/>
+      <path id="Path_8902" data-name="Path 8902" d="M25.161,21.387H21.387V32.71H20.129V23.9H16.355V32.71H15.1v-6.29H11.323v6.29H10.065V28.935H6.29V32.71H5.032v1.258H26.419V32.71H25.161Zm-2.516,1.258H23.9V32.71H22.645Zm-5.032,2.516h1.258V32.71H17.613Zm-5.032,2.516h1.258V32.71H12.581ZM7.548,30.194H8.806V32.71H7.548Zm0,0" fill="#fff"/>
+      <path id="Path_8903" data-name="Path 8903" d="M15.1,3.774H5.032V17.613H15.1ZM13.839,16.355H6.29V5.032h7.548Zm0,0" fill="#fff"/>
+      <path id="Path_8904" data-name="Path 8904" d="M7.548,6.29h5.032V7.548H7.548Zm0,0" fill="#fff"/>
+      <path id="Path_8905" data-name="Path 8905" d="M7.548,8.806h5.032v1.258H7.548Zm0,0" fill="#fff"/>
+      <path id="Path_8906" data-name="Path 8906" d="M7.548,11.323h5.032v1.258H7.548Zm0,0" fill="#fff"/>
+      <path id="Path_8907" data-name="Path 8907" d="M7.548,13.839h5.032V15.1H7.548Zm0,0" fill="#fff"/>
+      <path id="Path_8908" data-name="Path 8908" d="M16.355,12.581h1.258v1.258H16.355Zm0,0" fill="#fff"/>
+      <path id="Path_8909" data-name="Path 8909" d="M18.871,12.581h7.548v1.258H18.871Zm0,0" fill="#fff"/>
+      <path id="Path_8910" data-name="Path 8910" d="M16.355,15.1h1.258v1.258H16.355Zm0,0" fill="#fff"/>
+      <path id="Path_8911" data-name="Path 8911" d="M18.871,15.1h7.548v1.258H18.871Zm0,0" fill="#fff"/>
+      <path id="Path_8912" data-name="Path 8912" d="M16.355,17.613h1.258v1.258H16.355Zm0,0" fill="#fff"/>
+      <path id="Path_8913" data-name="Path 8913" d="M18.871,17.613h7.548v1.258H18.871Zm0,0" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,158 @@
+.t-or-ms1-mh-culture
+	background-color: #292929
+	position: relative
+
+	&::after
+		position: absolute
+		bottom: -57px
+		right: -60px
+		content: ''
+		width: 167px
+		height: 197px
+		background-image: url('../images/decor/decor-01.svg')
+		background-size: contain
+		background-position: center 
+
+		@media screen and (max-width: 1080px)
+			bottom: -120px
+
+		@media screen and (max-width: 768px)
+			display: none
+
+.t-or-ms1-mh-culture-r1
+	height: 413px
+	color: $white
+	padding-top: 71px
+
+	@media screen and (max-width: 768px)
+		height: auto
+		padding: 50px 0
+
+	@media screen and (max-width: 500px)
+		padding: 46px 0
+
+	ul
+		display: flex
+		justify-content: center
+		align-items: flex-start
+		text-align: center
+
+		@media screen and (max-width: 768px)
+			flex-direction: column
+			align-items: center
+
+		@media screen and (max-width: 500px)
+			display: block
+			text-align: left
+
+	li
+		$mb: 45px
+		position: relative
+		// transform: translateY(200px)
+		// opacity: 0
+		transition-property: transform, opacity
+		transition-duration: 1s
+		transition-timing-function: ease-out
+
+		@media screen and (max-width: 500px)
+			padding-left: 66px
+
+		@for $i from 1 through 3
+			&:nth-of-type(#{$i})
+				transition-delay: calc(#{$i} * 0.3s) 
+
+		.is-active &
+			transform: translateY(0)
+			opacity: 1
+
+		&:nth-of-type(1)
+
+			@media screen and (max-width: 768px)
+				margin-bottom: $mb
+			i
+				font-size: 82px
+
+				@media screen and (max-width: 500px)
+					font-size: 34px
+
+		&:nth-of-type(2)
+			margin: 0 110px
+
+			@media screen and (max-width: 1180px)
+				margin: 0 50px
+
+			@media screen and (max-width: 1080px)
+				margin: 0 20px
+
+			@media screen and (max-width: 768px)
+				margin: 0 0 $mb
+
+			i
+				font-size: 82px
+
+				@media screen and (max-width: 500px)
+					font-size: 40px
+
+		&:nth-of-type(3)
+			i
+				font-size: 64px
+
+				@media screen and (max-width: 500px)
+					font-size: 29px
+
+	span
+		display: block
+		position: relative
+		width: 82px
+		height: 82px
+		margin: 0 auto 37px
+		color: $primary
+
+		@media screen and (max-width: 500px)
+			position: absolute
+			top: -3px
+			left: 15px
+			margin: 0
+			width: auto
+			height: auto
+
+		img
+			position: absolute
+			left: 50%
+			top: 50%
+			transform: translate(-50%,-50%)
+
+	h3
+		font-weight: 700
+		font-size: 25px
+		margin-bottom: 66px
+		position: relative
+
+		@media screen and (max-width: 500px)
+			font-size: 20px
+			margin-bottom: 41px
+
+		&::before 
+			content: ''
+			position: absolute
+			bottom: -22px
+			left: calc(50% - 21.5px)
+			height: 4px
+			width: 43px
+			background-color: $primary
+			display: block
+
+			@media screen and (max-width: 500px)
+				left: 0
+				bottom: -19px
+				width: 40px
+
+	p
+		white-space: pre-line
+		font-size: 16px
+
+		@media screen and (max-width: 1080px)
+			white-space: normal
+
+		@media screen and (max-width: 500px)
+			font-size: 15px

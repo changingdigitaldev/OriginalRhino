@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_905" data-name="Rectangle 905" width="39" height="39" transform="translate(702 1861)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon19" transform="translate(-702 -1861)" clip-path="url(#clip-path)">
+    <g id="_018-picture" data-name="018-picture" transform="translate(702 1861)">
+      <path id="Path_8938" data-name="Path 8938" d="M10.5,18.1a4.177,4.177,0,1,0-4.177-4.177A4.181,4.181,0,0,0,10.5,18.1Zm0-6.854a2.677,2.677,0,1,1-2.677,2.677A2.68,2.68,0,0,1,10.5,11.25Z" fill="#fff"/>
+      <path id="Path_8939" data-name="Path 8939" d="M.75,0V39h37.5V0Zm1.5,1.5h34.5V21.545l-7.743-7.1a.77.77,0,0,0-.54-.2.751.751,0,0,0-.521.244L20.6,22.54l-3.557-3.557a.751.751,0,0,0-1.026-.033L3.467,30H2.25Zm34.5,36H2.25v-6h34.5ZM5.737,30,16.48,20.542l7.727,7.726a.75.75,0,1,0,1.061-1.061L21.662,23.6l6.886-7.541,8.2,7.519V30Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

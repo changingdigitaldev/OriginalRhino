@@ -1,0 +1,370 @@
+.t-or-ms1-mh-quote
+	background-color: $gray
+
+.t-or-ms1-mh-quote-r1
+	padding: 44px 0 79px
+	position: relative
+	height: 863px
+
+	@media screen and (max-width: 768px)
+		height: auto
+		display: flex
+		flex-direction: column
+		padding: 15px 0 10px
+
+
+.t-or-ms1-mh-quote-c1
+	width: 424px
+	color: $white
+	padding-top: 30px
+
+	@media screen and (max-width: 768px)
+		width: 100%
+
+	h2
+		color: $primary
+		font-size: 35px
+		font-weight: 800
+		margin-bottom: 70px
+		position: relative
+		white-space: pre-line
+
+		@media screen and (max-width: 768px)
+			white-space: normal
+			font-size: 25px
+
+		&::before
+			content: ''
+			position: absolute
+			bottom: -30px
+			left: 0
+			width: 41px
+			height: 4px
+			background-color: $primary
+			display: block
+
+	p
+		font-size: 16px
+		margin-bottom: 104px
+		white-space: pre-line
+
+		@media screen and (max-width: 768px)
+			white-space: normal
+			margin-bottom: 13px
+			font-size: 15px
+
+.t-or-ms1-mh-quote-c2
+	color: $white
+	order: 1
+	position: relative
+
+	@media screen and (max-width: 768px)
+		padding-top: 40px
+
+	&::before
+		width: 100vw
+		position: absolute
+		top: 0
+		left: 50%
+		transform: translateX(-50%)
+		content: ''
+		background-color: #707070
+		height: 2px
+		display: none
+
+		@media screen and (max-width: 768px)
+			display: block
+
+	h3
+		font-size: 25px
+		font-weight: 800
+		margin-bottom: 54px
+
+		@media screen and (max-width: 768px)
+			margin-bottom: 42px
+
+	ul
+
+	li
+		white-space: pre-line
+		margin-bottom: 30px
+		padding-left: 52px
+		position: relative
+		line-height: 1.5
+
+		i
+			position: absolute
+			top: 0
+			left: 0
+
+		&:nth-of-type(1)
+			i
+				font-size: 18px
+
+		&:nth-of-type(2)
+			i
+				font-size: 21px
+
+		&:nth-of-type(3) 
+			i
+				font-size: 21px
+
+		a
+			font-weight: 700
+
+
+.t-or-ms1-mh-quote-c3
+	display: inline-block
+	width: 50.55%
+	position: absolute
+	top: 47px
+	right: 0
+
+	@media screen and (max-width: 940px)
+		width: 40%
+
+	@media screen and (max-width: 768px)
+		width: 100%
+		position: relative
+		right: auto
+		top:  auto
+		margin-bottom: 39px
+
+	form
+		> label
+			font-size: 12px
+			color: $white
+			display: flex
+			align-items: center
+			opacity: 1
+			position: relative
+			cursor: pointer
+			margin-bottom: 59px
+
+			@media screen and (max-width: 768px)
+				margin-bottom: 41px
+
+			&::before
+				position: relative
+				display: block
+				width: 13px
+				height: 13px
+				border: 2px solid $white
+				content: ''
+				margin-right: 10px
+
+			&::after
+				position: absolute
+				top: 2px
+				left: 0
+				content: ''
+				display: block
+				width: 15px
+				height: 6px
+				border-width: 0 0 2px 2px
+				border-color: $white
+				border-style: solid
+				transform: rotate(-45deg)
+				opacity: 0
+				transition-property: opacity
+				transition-duration: $duration
+				transition-timing-function: ease
+
+	fieldset
+		width: 100%
+		position: relative
+		padding: 15px 0
+
+		&::after
+			content: ''
+			position: absolute
+			bottom: -15px
+			left: 0
+			background-color: $white
+			height: 3px
+			width: 100%
+
+		&:not(:last-of-type)
+			margin-bottom: 47px
+
+			@media screen and (max-width: 768px)
+				margin-bottom: 13px
+
+		&:last-of-type
+			margin-bottom: 61px
+
+		label
+			color: $white
+			font-size: 16px
+			text-transform: uppercase
+			font-weight: 700
+			position: absolute
+			top: 50%
+			left: 0
+			transform: translateY(-50%)
+			pointer-events: none
+
+			@media screen and (max-width: 768px)
+				font-size: 15px
+
+		input
+			width: 100%
+			height: 42px
+			font-size: 16px
+			border: none
+			background-color: $gray
+			color: $white
+
+			@media screen and (max-width: 768px)
+				font-size: 15px
+
+			&::placeholder
+				font-size: 0
+
+			&:focus,
+			&:not(:placeholder-shown) 
+				outline: none
+				+ label
+					opacity: 0
+
+
+	input
+		&[type="checkbox"]
+			display: none
+
+			&:checked + label::after
+				opacity: 1
+
+
+.t-or-ms1-mh-quote-alt
+	background-color: $white
+	padding-bottom: 130px
+
+	.t-or-ms1-mh-quote-r1
+		height: 750px
+
+		@media screen and (max-width: 768px)
+			height: auto
+
+		p
+			color: $gray
+			font-weight: 700
+			font-size: 30px
+			white-space: pre-line
+			margin-bottom: 60px
+
+	.t-or-ms1-mh-quote-c2
+		color: $gray
+
+	.t-or-ms1-mh-quote-c3 
+		form
+			& > label 
+				color: $gray
+				display: block
+				white-space: nowrap
+
+				&::before
+					border-color: $gray
+					display: inline-block
+					vertical-align: top
+
+				&::after
+					border-color: $gray
+
+				span
+					font-weight: 700
+
+		fieldset 
+			&::after
+				background-color: $gray
+			input
+				background-color: $white
+				color: $gray
+
+			label
+				color: $gray
+
+.t-or-ms1-mh-quote-ty-guide
+	margin-bottom: -125px
+	padding-bottom: 100px
+
+	@media screen and (max-width: 768px)
+		margin-top: -85px
+		padding-bottom: 150px
+
+.t-or-ms1-mh-quote-campaign
+	.t-or-ms1-mh-quote-c1 p 
+		@media screen and (max-width: 768px)
+			margin-bottom: 30px
+
+	.t-or-ms1-mh-quote-c3
+		top: 180px
+
+		@media screen and (max-width: 768px)
+			top: auto
+
+		fieldset
+			padding: 0
+			border: 2px solid $white
+			&::after
+				display: none
+
+			&:not(:last-of-type)
+				margin-bottom: 15px
+
+			input
+				padding: 0 10px
+				height: 34px
+
+			label
+				left: 10px
+
+		button
+			padding: 0 20px
+
+.t-or-ms1-mh-quote-webinar
+	.t-or-ms1-mh-quote-r1
+		height: auto
+
+	p
+		font-size: 30px
+		font-weight: 700
+
+		@media screen and (max-width: 768px)
+			margin-bottom: 22px
+
+	.t-or-ms1-mh-quote-c3
+		top: 77px
+		width: 51.55%
+
+		@media screen and (max-width: 768px)
+			width: 100%
+			top: auto
+
+		form
+			& > label
+				display: block
+
+				&::before
+					display: inline-block
+
+				span
+					font-weight: 700
+					display: inline
+
+		fieldset
+			padding: 0
+
+			&:not(:last-of-type)
+				margin-bottom: 17px
+
+			&::after
+				display: none
+
+			input
+				border: 2px solid $white
+				padding: 0 15px
+				height: 37px
+
+			label
+				left: 15px

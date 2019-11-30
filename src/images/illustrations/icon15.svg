@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_904" data-name="Rectangle 904" width="39" height="39" transform="translate(702 1790)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon15" transform="translate(-702 -1790)" clip-path="url(#clip-path)">
+    <g id="_016-document" data-name="016-document" transform="translate(706.542 1790)">
+      <path id="Path_8986" data-name="Path 8986" d="M.007,4.55v33.8a.65.65,0,0,0,.65.65h24.7a.65.65,0,0,0,.65-.65V11.05c0-.014-.007-.027-.008-.041a.613.613,0,0,0-.033-.167c-.007-.021-.012-.041-.021-.061a.643.643,0,0,0-.13-.19l-6.5-6.5a.63.63,0,0,0-.191-.13.587.587,0,0,0-.06-.021.644.644,0,0,0-.168-.034c-.011,0-.024-.005-.037-.005H.658A.65.65,0,0,0,.007,4.55ZM23.788,10.4H19.507V6.119ZM1.307,5.2h16.9v5.85a.65.65,0,0,0,.65.65h5.85v26H1.307Zm0,0" fill="#fff"/>
+      <path id="Path_8987" data-name="Path 8987" d="M27.308,33.8v1.3h1.95a.65.65,0,0,0,.65-.65V.65a.65.65,0,0,0-.65-.65H4.557a.65.65,0,0,0-.65.65V2.6h1.3V1.3h23.4V33.8Zm0,0" fill="#fff"/>
+      <path id="Path_8988" data-name="Path 8988" d="M5.208,13h15.6v1.3H5.208Zm0,0" fill="#fff"/>
+      <path id="Path_8989" data-name="Path 8989" d="M5.208,9.1h5.2v1.3h-5.2Zm0,0" fill="#fff"/>
+      <path id="Path_8990" data-name="Path 8990" d="M5.208,16.9h10.4v1.3H5.208Zm0,0" fill="#fff"/>
+      <path id="Path_8991" data-name="Path 8991" d="M16.907,16.9h3.9v1.3h-3.9Zm0,0" fill="#fff"/>
+      <path id="Path_8992" data-name="Path 8992" d="M5.208,20.8h15.6v1.3H5.208Zm0,0" fill="#fff"/>
+      <path id="Path_8993" data-name="Path 8993" d="M5.208,28.6h15.6v1.3H5.208Zm0,0" fill="#fff"/>
+      <path id="Path_8994" data-name="Path 8994" d="M11.057,24.7h9.75V26h-9.75Zm0,0" fill="#fff"/>
+      <path id="Path_8995" data-name="Path 8995" d="M5.208,24.7h4.55V26H5.208Zm0,0" fill="#fff"/>
+      <path id="Path_8996" data-name="Path 8996" d="M5.208,32.5h2.6v1.3h-2.6Zm0,0" fill="#fff"/>
+      <path id="Path_8997" data-name="Path 8997" d="M9.107,32.5h11.7v1.3H9.107Zm0,0" fill="#fff"/>
+    </g>
+  </g>
+</svg>
