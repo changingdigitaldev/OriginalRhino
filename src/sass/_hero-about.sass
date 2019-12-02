@@ -1,0 +1,145 @@
+.t-or-ms1-mh-hero-about
+
+	&::before
+		position: absolute
+		bottom: 140px
+		left: -28px
+		content: ''
+		background-image: url('../images/decor/decor-04.svg')
+		background-position: center
+		background-repeat: no-repeat
+		background-size: contain
+		width: 100px
+		height: 129px
+		z-index: 3
+
+		@media screen and (max-width: 1366px)
+			display: none
+
+	.t-or-ms1-mh-hero-r1
+
+		img
+			position: relative
+			display: none
+
+			@media screen and (max-width: 768px)
+				display: block;
+
+
+	.t-or-ms1-mh-hero-img
+		width: 470px
+		height: 356px
+
+		@media screen and (max-width: 1100px)
+			transform: scale(0.8)
+			margin-right: -70px
+
+		@media screen and (max-width: 768px)
+			max-width: 470px
+			width: 100%
+			transform: none
+			margin-right: auto
+			height: auto
+
+		span
+			position: absolute
+			display: block
+			background-size: contain
+			background-repeat: no-repeat
+			background-position: center
+			// opacity: 0
+
+			@media screen and (max-width: 768px)
+				display: none
+
+
+			&:nth-of-type(1)
+				width: 410px
+				height: 309px
+				bottom: 5px
+				left: 0
+				// transform: scale(0.5)
+
+			&:nth-of-type(2)
+				width: 125px
+				height: 61px
+				top: 90px
+				left: 132px
+				// transform: translateX(-100px)
+
+			&:nth-of-type(3)
+				width: 53px
+				height: 101px
+				top: -2px
+				right: 174px
+				// transform: translateX(100px)
+
+			&:nth-of-type(4)
+				width: 83px
+				height: 213px
+				bottom: 8px
+				left: 52px
+				// transform: translateX(-100px)
+
+			&:nth-of-type(5)
+				width: 99px
+				height: 195px
+				bottom: 7px
+				right: 99px
+				// transform: translateX(100px)
+
+			&:nth-of-type(6)
+				width: 73px
+				height: 35px
+				top: 130px
+				right: 41px
+				// transform: translateX(-20px)
+
+			&:nth-of-type(7)
+				width: 59px
+				height: 29px
+				top: 143px
+				left: 9px
+				// transform: translateX(20px)
+
+			&:nth-of-type(8)
+				width: 102px
+				height: 166px
+				bottom: 33px
+				right: 0
+
+			&:nth-of-type(9)
+				width: 34px
+				height: 34px
+				top: 76px
+				right: 126px
+
+				img
+					display: block
+					width: 100%
+					opacity: 1
+					animation: turn 3s linear infinite
+
+			&:nth-of-type(10)
+				width: 17px
+				height: 17px
+				top: 17px
+				right: 233px
+
+				img
+					display: block
+					width: 100%
+					opacity: 1
+					animation: turn 1.5s linear infinite
+
+			&:nth-of-type(11)
+				width: 17px
+				height: 17px
+				top: 155px
+				right: 194px
+
+				img
+					display: block
+					width: 100%
+					opacity: 1
+					animation: turn 5s linear infinite

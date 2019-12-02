@@ -1,0 +1,114 @@
+.t-or-ms1-mh-hero
+	margin-top: 70px
+	position: relative
+	background-color: $black
+
+	@media screen and (max-width: 768px)
+		margin-top: 58px
+
+.t-or-ms1-mh-hero-r1
+	height: 535px
+	display: flex
+	align-items: center
+	justify-content: space-between
+
+	@media screen and (max-width: 1100px)
+		padding-bottom: 80px
+
+	@media screen and (max-width: 768px)
+		display: block
+		height: auto
+		padding: 50px 0 100px
+
+	img
+		width: 100%
+		order: 1
+
+		@media screen and (max-width: 768px)
+			margin: 0 auto 30px
+			display: block
+
+	.t-or-ms1-mh-hero-img
+		width: 100%
+		position: relative
+		order: 1
+		flex-shrink: 0
+
+		@media screen and (max-width: 768px)
+			margin: 0 auto 30px
+			display: block
+
+	section
+		width: 484px
+
+		@media screen and (max-width: 768px)
+			width: 100%
+
+	h1
+		font-size: 18px
+		font-weight: 700
+		color: $primary
+		margin-bottom: 65px
+		text-transform: uppercase
+	
+	ul
+		margin-bottom: 30px
+
+	li
+		display: inline-block
+		text-transform: uppercase
+		position: relative
+		font-size: 12px
+		margin-right: 5px
+
+		&:not(:last-of-type)
+			&::after
+				position: relative
+				content: '\00bb'
+				display: inline-block
+				color: $white
+				font-size: 21px
+				margin-left: 8px
+
+		a
+			color: $white
+			font-weight: 700
+			position: relative
+
+			&.is-page
+				&::before
+					position: absolute
+					bottom: -4px
+					left: 0
+					height: 3px
+					width: 100%
+					content: ''
+					background-color: $primary
+
+
+	p
+		color: $white
+		font-size: 30px
+		font-weight: 700
+
+		@media screen and (max-width: 1100px)
+			font-size: 25px
+
+	// .fade-up
+	// 	opacity: 0
+	// 	transform: translateY(100px)
+
+.t-or-ms1-mh-hero-curve
+	position: absolute
+	bottom: -5px
+	left: 50%
+	transform: translateX(-50%)
+	width: 101%
+	z-index: 1
+	pointer-events: none
+
+	@media screen and (max-width: 1366px)
+		width: 200%
+
+	img
+		width: 100%

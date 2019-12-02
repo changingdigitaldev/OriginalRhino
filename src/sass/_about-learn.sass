@@ -1,0 +1,191 @@
+.t-or-ms1-mh-about-learn
+	background-color: $black
+	position: relative
+
+	@media screen and (max-width: 940px)
+		background-color: #292929
+
+	&::before
+		content: ''
+		position: absolute
+		bottom: -80px
+		left: -28px
+		background-size: cover
+		background-position: center
+		background-repeat: no-repeat
+		background-image: url('../images/decor/decor-06.svg')
+		width: 100px
+		height: 157px
+
+		@media screen and (max-width: 1366px)
+			display: none
+
+.t-or-ms1-mh-about-learn-r1
+	position: relative
+	padding-top: 72px
+	padding-bottom: 130px
+
+	@media screen and (max-width: 940px)
+		text-align: center
+		padding: 70px 0
+
+	@media screen and (max-width: 375px)
+		text-align: left
+
+	h2
+		white-space: pre-line
+		margin-bottom: 70px
+		display: inline-block
+
+		&::before
+			@media screen and (max-width: 940px)
+				left: 50%
+				transform: translateX(-50%)
+
+			@media screen and (max-width: 375px)
+				left: 0
+				transform: none
+
+		&.coverup
+			&::before
+				background-color: #000
+	p
+		color: $white
+		max-width: 417px
+		width: 100%
+		margin-bottom: 49px
+		transition-property: opacity, transform
+		transition-duration: 350ms
+		transition-timing-function: ease-out
+		// opacity: 0
+		// transform: translateY(50px)
+		transition-delay: 200ms
+
+		@media screen and (max-width: 940px)
+			max-width: 100%
+
+		@media screen and (max-width: 768px)
+			font-size: 15px
+
+		.is-active &
+			opacity: 1
+			transform: translateY(0)
+
+	a
+		padding: 0 17px
+		transition-property: opacity, transform
+		transition-duration: 350ms
+		transition-timing-function: ease-out
+		// opacity: 0
+		// transform: translateY(50px)
+		transition-delay: 400ms
+
+		.is-active &
+			opacity: 1
+			transform: translateY(0)
+
+
+.t-or-ms1-mh-about-learn-video
+	width: 427px
+	height: 312px
+	position: absolute
+	top: 147px
+	right: 76px
+	z-index: 1
+	transition-property: opacity, transform
+	transition-duration: 350ms
+	transition-timing-function: ease-out
+	// opacity: 0
+	// transform: translateY(50px)
+
+	@media screen and (max-width: 1100px)
+		right: 30px
+		width: 350px
+
+	@media screen and (max-width: 940px)
+		position: relative
+		top: auto
+		right: auto
+		max-width: 427px
+		width: 100%
+		margin: 0 auto 50px
+
+	@media screen and (max-width: 560px)
+		max-width: 270px
+		height: 220px
+
+	.is-active &
+		opacity: 1
+		transform: translateY(0)
+
+
+	&::before,
+	&::after
+		position: absolute
+		bottom: 18px
+		content: ''
+		background-image: url('../images/decor/decor-03.svg')
+		background-size: contain
+		background-position: center
+		background-repeat: no-repeat
+		z-index: -1
+		width: 156px
+		height: 223px
+
+		@media screen and (max-width: 560px)
+			width: 80px
+			height: 140px
+
+	&::before
+		left: -86px
+
+		@media screen and (max-width: 1366px)
+			left: -60px
+
+		@media screen and (max-width: 560px)
+			left: -30px
+
+	&::after
+		right: -86px
+		transform:  scale(-1,1)
+
+		@media screen and (max-width: 1366px)
+			right: -60px
+
+		@media screen and (max-width: 560px)
+			right: -30px
+
+	span
+		display: block
+		width: 100%
+		height: 100%
+		background-image: url('../images/video-img.png')
+		background-position: center
+		background-size: cover
+		cursor: pointer
+		
+		&::before
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			background-color: rgba($black,0.7)
+			width: 100%
+			height: 100%
+
+		&::after
+			content: ''
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%,-50%)
+			width: 110px;
+			height: 110px;
+			background-image: url('../images/play.png');
+			background-size: contain
+			background-repeat: no-repeat
+			background-position: center
+
+			@media screen and (max-width: 560px)
+				height: 60px
+				width: 60px

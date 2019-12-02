@@ -1,0 +1,95 @@
+.t-or-ms1-mh-about-content
+	position: relative
+
+	&::after
+		content: ''
+		position: absolute
+		bottom: -102px
+		right: -64px
+		background-image: url('#{$image-path}/decor/decor-05.svg')
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+		width: 162px
+		height: 215px
+		z-index: 1
+
+		@media screen and (max-width: 1366px)
+			display: none
+
+.t-or-ms1-mh-about-content-r1
+	padding-top: 62px
+	padding-bottom: 104px
+
+	@media screen and (max-width: 768px)
+		padding-bottom: 50px
+
+	img
+		width: 100%
+
+		@media screen and (max-width: 768px)
+			display: block
+			margin: 0 auto 50px
+
+
+	p
+		color: $white
+		font-size: 20px
+		margin-left: 50px 
+
+		@media screen and (max-width: 768px)
+			font-size: 15px
+			margin-left: 0
+
+	section
+		display: flex
+		justify-content: space-between
+		align-items: center
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		// opacity: 0
+
+		@media screen and (max-width: 768px)
+			display: block
+
+		// &:nth-of-type(odd)
+		// 	transform: translateX(250px)
+
+		// &:nth-of-type(even)
+		// 	transform: translateX(-250px)
+
+		&.is-active
+			opacity: 1
+			transform: translateX(0)
+
+		&:first-of-type
+			margin-bottom: 73px
+
+			img
+				max-width: 514px 
+
+				@media screen and (max-width: 1100px)
+					max-width: 401px
+
+		&:nth-of-type(2)
+			margin-bottom: 80px
+
+			img
+				max-width: 401px 
+				order: 1
+
+			p
+				margin-left: 0
+				margin-right: 50px
+
+				@media screen and (max-width: 768px)
+					margin-right: 0
+
+		&:nth-of-type(3)
+
+			img
+				max-width: 476px 
+
+				@media screen and (max-width: 1100px)
+					max-width: 401px
