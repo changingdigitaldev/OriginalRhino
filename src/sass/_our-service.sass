@@ -1,0 +1,175 @@
+.t-or-ms1-mh-our-service
+	background-color: #1c1c1c
+	position: relative
+	z-index: 1
+
+	&::after
+		position: absolute
+		bottom: -52px
+		right: -99px
+		content: ''
+		height: 207px
+		width: 202px
+		background-image: url(../images/decor/decor-07.svg)
+		background-position: center
+		background-size: contain
+		background-repeat: no-repeat
+
+		@media screen and (max-width: 1366px)
+			display: none
+
+.t-or-ms1-mh-our-service-r1
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding-top: 57px
+	margin-bottom: 75px
+
+	@media screen and (max-width: 1100px)
+		justify-content: space-around 
+
+	@media screen and (max-width: 840px)
+		display: block
+		text-align: center
+
+	&.is-active
+		img,
+		p
+			opacity: 1
+			transform: translateY(0)
+
+	img
+		max-width: 340px
+		width: 100%
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		// opacity: 0
+		// transform: translateY(200px)
+
+	p
+		color: $white
+		font-size: 35px
+		font-weight: 700
+		display: inline-block
+		white-space: pre-line
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		// opacity: 0
+		// transform: translateY(200px)
+		transition-delay: 300ms
+
+		@media screen and (max-width: 1100px)
+			font-size: 25px
+
+		@media screen and (max-width: 840px)
+			white-space: normal
+
+		@media screen and (max-width: 768px)
+			font-size: 20px
+
+.t-or-ms1-mh-our-service-r2
+	padding-bottom: 72px
+	transition-property: opacity, transform
+	transition-duration: 1s
+	transition-timing-function: ease-out
+	// opacity: 0
+	// transform: translateY(200px)
+
+	&.is-active
+		opacity: 1
+		transform: translateY(0)
+
+	ul
+		display: flex
+		flex-wrap: wrap
+		position: relative
+		align-items: stretch
+
+	li
+		width: calc(100%/3)
+		position: relative
+
+		@media screen and (max-width: 768px)
+			width: calc(100%/2)
+
+
+		&:nth-of-type(-n+3)
+			border-bottom: 2px solid #707070
+
+		&:nth-of-type(4)
+			@media screen and (max-width: 768px)
+				border-bottom: 2px solid #707070
+
+
+		&::before
+			position: absolute
+			top: 50%
+			transform: translateY(-50%)
+			right: 0
+			content: ''
+			height: 75%
+			width: 1px
+			background-color: #707070
+			z-index: 1
+
+		&:nth-child(3),
+		&:nth-child(6)
+			&::before
+				display: none
+
+		&:nth-child(even)
+			&::before
+				@media screen and (max-width: 768px)
+					display: none
+
+		&:nth-child(odd)
+			&::before
+				@media screen and (max-width: 768px)
+					display: block
+
+	a
+		color: $white
+		font-size: 30px
+		font-weight: 700
+		background-color: #292929
+		width: 100%
+		height: 100%
+		display: flex
+		align-items: flex-start
+		justify-content: center
+		text-align: center
+		padding: 44px 0
+		position: relative
+		transition: opacity, transform, background-color
+		transition-duration: 0.3s
+		transition-timing-function: ease-out
+
+		@media screen and (max-width: 1100px)
+			font-size: 20px
+
+		@media screen and (max-width: 480px)
+			font-size: 15px
+			word-break: break-all
+			padding: 44px 10px
+
+		&:hover
+			transform: scale(1.2)
+			background-color: $black
+			z-index: 1
+
+			&::before
+				opacity: 1
+
+		&::before
+			position: absolute
+			content: ''
+			left: calc(50% - 21px)
+			bottom: 30px
+			background-color: $primary
+			height: 3px
+			width: 42px
+			opacity: 0
+
+

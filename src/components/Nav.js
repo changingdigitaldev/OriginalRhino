@@ -9,7 +9,7 @@ class Nav extends React.Component {
 						<ul>
 							<li><a href="/">HOME</a></li>
 							<li><a href="/about">ABOUT</a></li>
-							<li><a href="">SERVICES</a></li>
+							<li><a href="/services">SERVICES</a></li>
 							<li><a href="">OUR WORK</a></li>
 							<li><a href="">NEWS & INSIGHTS</a></li>
 							<li><a href="">EVENTS</a></li>

@@ -15,3 +15,34 @@
 
 		&.active
 			background-color: $primary!important
+			
+.owl-nav
+	position: absolute
+	top: 50%
+	transform: translateY(-50%)
+	left: 0
+	width: 100%
+	display: flex
+	justify-content: space-between
+
+	.owl-prev,
+	.owl-next
+		width: 20px
+		height: 34px
+		background-image: url('../images/angle.svg')!important
+		background-position: center
+		background-size: contain!important
+		background-repeat: no-repeat!important
+		position: relative
+
+		&.disabled
+			opacity: 0.3
+
+		&:focus
+			outline: none
+	
+	.owl-prev
+		left: -50px
+	.owl-next
+		transform: scale(-1,1)
+		right: -50px

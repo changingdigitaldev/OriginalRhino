@@ -1,0 +1,128 @@
+.t-or-ms1-mh-our-work
+	background-color: $black
+	background-image: url('../images/our-work.png')
+	background-position: center top
+	background-size: cover
+	position: relative
+
+	&::after
+		position: absolute
+		bottom: -52px
+		left: -99px
+		content: ''
+		height: 207px
+		width: 202px
+		background-image: url('../images/decor/decor-08.svg')
+		background-position: center
+		background-size: contain
+		background-repeat: no-repeat
+
+		@media screen and (max-width: 1366px)
+			display: none
+
+.t-or-ms1-mh-our-work-r1
+	text-align: center
+	padding-top: 78px
+	margin-bottom: 86px
+
+	@media screen and (max-width: 420px)
+		text-align: left
+		margin-bottom: 40px
+
+	&.is-active
+		h2,
+		p
+			opacity: 1
+			transform: translateY(0)
+
+	h2
+		letter-spacing: -0.03em
+		margin-bottom: 65px
+		// opacity: 0
+		// transform: translateY(200px)
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+
+		&::before
+			bottom: -18px
+			left: calc(50% - (41px/2))
+
+			@media screen and (max-width: 420px)
+				left: 0
+
+	p
+		color: $white
+		font-size: 16px
+		white-space: pre-line
+		// opacity: 0
+		// transform: translateY(200px)
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		transition-delay: 300ms
+
+.t-or-ms1-mh-our-work-r2
+	padding-bottom: 36px
+	// opacity: 0
+	// transform: translateY(200px)
+	transition-property: opacity, transform
+	transition-duration: 1s
+	transition-timing-function: ease-out
+
+	&.is-active
+		transform: translateY(0)
+		opacity: 1
+
+	ul
+		position: relative
+
+	section
+		display: flex
+		flex-wrap: wrap
+		align-items: flex-start
+		justify-content: space-between
+
+		@media screen and (max-width: 1200px)
+			padding: 0 10px
+
+		a
+			width: 252px
+			height: 160px
+			flex-shrink: 0
+			display: flex
+			flex-direction: column
+			align-items: center
+			justify-content: flex-end
+			padding-bottom: 35px
+			font-size: 16px
+			font-weight: 700
+			border: 1px solid $white
+			color: $white
+			border-radius: 5px
+			text-align: center
+
+			@media screen and (max-width: 1200px)
+				width: 100%
+
+			@media screen and (max-width: 768px)
+				font-size: 12px
+				height: 120px
+				padding-bottom: 15px
+
+			&:nth-child(-n+4)
+				margin-bottom: 43px
+
+				@media screen and (max-width: 768px)
+					margin-bottom: 20px
+
+			span
+				flex-shrink: 0
+				margin-bottom: 20px
+
+				@media screen and (max-width: 768px)
+					transform: scale(0.7)
+					margin-bottom: 10px
+
+
+

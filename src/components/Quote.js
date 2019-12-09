@@ -19,7 +19,7 @@ export default function Quote() {
 							<ul>
 								<li><i className="icon-mail"></i><a href="">hello@originalrhino.com</a></li>
 								<li><i className="icon-phone"></i>+12 34 5678 9001</li>
-								<li><i className="icon-location"></i>Lorem Ipsum St. Sit Amet Dolor Dignissim 
+								<li><i className="icon-location"></i>Lorem Ipsum St. Sit Amet Dolor Dignissim<br/>
 								A Mauris In Egestas Turpis</li>
 							</ul>
 						</div>

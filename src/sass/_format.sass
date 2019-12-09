@@ -1,0 +1,64 @@
+.t-or-ms1-mh-format
+	background-color: $black
+
+.t-or-ms1-mh-format-r1
+	padding-top: 68px
+	padding-bottom: 12px
+
+	@media screen and (max-width: 768px)
+		padding-bottom: 50px
+
+	h2
+		font-size: 35px
+		font-weight: 800
+		color: $white
+		text-align: center
+		margin-bottom: 53px
+		letter-spacing: -0.03em
+
+		@media screen and (max-width: 768px)
+			font-size: 25px
+			text-align: left
+
+	section
+		padding: 50px 15px 0
+		color: $white
+
+	ul
+
+	li
+		color: $white
+		display: inline-block
+		vertical-align: top
+		width: 322px
+
+		@media screen and (max-width: 1100px)
+			width: 100%
+		
+
+	h3
+		font-size: 30px
+		font-weight: 700
+		margin-bottom: 35px
+		position: relative
+
+		@media screen and (max-width: 768px)
+			font-size: 20px
+
+		&::before
+			position: absolute
+			top: -41px
+			left: 0
+			content: '0'counter(counter)'.'
+			font-size: 20px
+			font-weight: 700
+			color: $primary
+
+	p
+		font-size: 16px
+
+		@media screen and (max-width: 768px)
+			font-size: 15px
+
+	.owl-item
+		counter-increment: counter;
