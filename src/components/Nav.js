@@ -14,7 +14,7 @@ class Nav extends React.Component {
 							<li><a href="">NEWS & INSIGHTS</a></li>
 							<li><a href="">EVENTS</a></li>
 							<li><a href="">CONTACT</a></li>
-							<li><a href="">CAREERS</a></li>
+							<li><a href="/career">CAREERS</a></li>
 						</ul>
 					</div>
 					<div className="t-or-ms1-mh-nav-r2">

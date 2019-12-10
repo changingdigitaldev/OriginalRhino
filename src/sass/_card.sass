@@ -1,0 +1,83 @@
+.t-or-ms1-mh-card
+	div
+		height: 280px
+		background-size: cover
+		background-position: center top
+
+	section
+		background-color: $white
+		color: $shaft
+		padding: 20px 15px
+		border-radius: 0 0 12px 12px
+
+		h3
+			color: $shaft
+			font-size: 25px
+			margin-bottom: 50px
+
+		p
+			font-weight: 700
+			margin-bottom: 28px
+
+		a
+			padding: 0 21px
+
+.t-or-ms1-mh-card-latest-news
+
+	section
+		h3
+			@media screen and (max-width: 1170px)
+				font-size: 20px
+
+		p
+			@media screen and (max-width: 1170px)
+				font-size: 15px
+
+.t-or-ms1-mh-card-most-popular
+	
+	section
+		h3
+			@media screen and (max-width: 1170px)
+				font-size: 20px
+
+		p
+			@media screen and (max-width: 1170px)
+				font-size: 15px
+
+.t-or-ms1-mh-card-careers
+	section
+		border-radius: 12px
+		padding: 44px 20px
+
+		@media screen and (max-width: 600px)
+			padding: 20px
+
+		h3
+			margin-bottom: 35px
+			min-height: 60px
+
+			@media screen and (max-width: 600px)
+				min-height: 0
+				font-size: 18px
+				margin-bottom: 25px
+
+			&::before
+				display: none
+
+			&::after
+				position: absolute
+				left: 0
+				background-color: $primary
+				height: 4px
+				width: 41px
+				content: ''
+				margin-top: 50px
+
+				@media screen and (max-width: 600px)
+					margin-top: 25px
+
+		p
+			margin-bottom: 48px
+
+			@media screen and (max-width: 600px)
+				margin-bottom: 30px

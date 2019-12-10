@@ -1,0 +1,108 @@
+.t-or-ms1-mh-value
+	padding: 66px 0 61px
+
+	&.is-active
+		.t-or-ms1-mh-value-r1,
+		.t-or-ms1-mh-value-r2 li
+			opacity: 1
+			transform: translateY(0)
+
+
+
+.t-or-ms1-mh-value-r1
+	margin-bottom: 101px
+	// opacity: 0
+	// transform: translateY(200px)
+	transition-property: opacity, transform
+	transition-duration: 1s
+	transition-timing-function: ease-out
+
+	h2
+		text-align: center
+
+		&::before
+			left: 50%
+			transform: translateX(-50%)
+
+.t-or-ms1-mh-value-r2
+
+	ul
+		display: flex
+		justify-content: space-between
+		align-items: flex-end
+		text-align: center
+		flex-wrap: wrap
+
+	li
+		width: calc(95%/4)
+		// opacity: 0
+		// transform: translateY(200px)
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+
+		@media screen and (max-width: 768px)
+			width: calc(100%/2)
+			margin-bottom: 50px
+
+		@for $i from 1 through 4
+			&:nth-of-type(#{$i})
+				transition-delay: calc(200ms * #{$i})
+
+		&:nth-child(1)
+			span
+				width: 105px
+				height: 105px
+
+				@media screen and (max-width: 768px)
+					height: calc(105px/2)
+					width: calc(105px/2)
+
+		&:nth-child(2)
+			span
+				width: 105px
+				height: 105px
+
+				@media screen and (max-width: 768px)
+					height: calc(105px/2)
+					width: calc(105px/2)
+
+		&:nth-child(3)
+			span
+				width: 115px
+				height: 117px
+
+				@media screen and (max-width: 768px)
+					height: calc(117px/2)
+					width: calc(115px/2)
+
+		&:nth-child(4)
+			span
+				width: 114px
+				height: 117px
+
+				@media screen and (max-width: 768px)
+					height: calc(117px/2)
+					width: calc(114px/2)
+
+
+	span
+		display: inline-block
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+		margin-bottom: 54px
+
+		@media screen and (max-width: 950px)
+			margin-bottom: 15px
+
+	p
+		font-size: 25px
+		font-weight: 700
+		color: $white
+
+		@media screen and (max-width: 768px)
+			font-size: 20px
+
+		@media screen and (max-width: 450px)
+			font-size: 15px

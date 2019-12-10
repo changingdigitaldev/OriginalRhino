@@ -5,6 +5,7 @@ import curve from '../images/banner/curve-top.svg'
 class Hero extends React.Component {
 	render() {
 		return (
+			<React.Fragment>
 			<div className={`t-or-ms1-mh-hero ${this.props.content.classModifier}`}>
 				<div className="t-or-ms1-mh-container">
 					<div className="t-or-ms1-mh-hero-r1">
@@ -22,6 +23,7 @@ class Hero extends React.Component {
 					<img src={curve} alt=""/>
 				</div>
 			</div>
+			</React.Fragment>
 		)
 	}
 }
