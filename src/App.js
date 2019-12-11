@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Career from './pages/Career'; 
+import OurWork from './pages/OurWork'; 
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -18,6 +19,7 @@ export default function App() {
 					<Route exact path="/about" component={About} />
 					<Route exact path="/services" component={Services} /> 
 					<Route exact path="/career" component={Career} /> 
+					<Route exact path="/our-work" component={OurWork} /> 
 				</Switch>
 			</Router>
       <Footer/>

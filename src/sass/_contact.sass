@@ -1,0 +1,95 @@
+.t-or-ms1-mh-contact
+	background-color: $black
+
+	&.is-active
+		.t-or-ms1-mh-contact-r1
+			img,
+			section
+				opacity: 1
+				transform: translateY(0)
+
+
+.t-or-ms1-mh-contact-r1
+	display: flex
+	justify-content: space-between
+	align-items: flex-start
+	color: $white
+	padding: 66px 0 69px
+
+	@media screen and (max-width: 1100px)
+		flex-direction: column
+		justify-content: center
+		align-items: center
+
+	img
+		max-width: 426px
+		width: 100%
+		// transform: translateY(200px)
+		// opacity: 0
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+
+		@media screen and (max-width: 1100px) 
+			display: block
+			margin-bottom: 40px
+
+	section
+		max-width: 538px
+		width: 100%
+		// transform: translateY(200px)
+		// opacity: 0
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		transition-delay: 200ms
+
+	h2
+		margin-bottom: 83px
+
+		@media screen and (max-width: 768px)
+			font-size: 25px
+			margin-bottom: 50px
+
+	p
+		font-size: 16px
+		margin-bottom: 70px
+
+		@media screen and (max-width: 768px) 
+			margin-bottom: 40px
+			font-size: 15px
+
+	ul
+
+	li
+		font-size: 16px
+		position: relative
+		white-space: pre-line
+		padding-left: 43px
+
+		@media screen and (max-width: 768px) 
+			font-size: 15px
+
+		&:not(:last-of-type)
+			margin-bottom: 34px
+
+		&:nth-of-type(1)
+			i
+				font-size: 18px
+
+		&:nth-of-type(2)
+			i
+				font-size: 21px
+
+		&:nth-of-type(3)
+			i
+				font-size: 21px
+
+		a
+			font-weight: 700
+
+		i
+			position: absolute
+			top: 50%
+			left: 0
+			transform: translateY(-50%)

@@ -22,7 +22,7 @@ class Header extends React.Component {
           <div className="t-or-ms1-mh-container">
             <div className="t-or-ms1-mh-header-inner">
               <div className="t-or-ms1-mh-header-c1">
-                <a href="#">
+                <a href="/">
                   <img src={logo} alt=""/>
                 </a>
               </div>

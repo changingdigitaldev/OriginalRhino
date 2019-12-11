@@ -1,0 +1,176 @@
+.t-or-ms1-mh-record
+
+	.t-or-ms1-mh-search-record
+		// transform: translateY(200px)
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		// opacity: 0
+
+		&.is-active
+			opacity: 1
+			transform: translateY(0)
+
+
+
+.t-or-ms1-mh-record-r1
+	text-align: center
+	padding-top: 80px
+	// transform: translateY(200px)
+	transition-property: opacity, transform
+	transition-duration: 1s
+	transition-timing-function: ease-out
+	// opacity: 0
+
+	@media screen and (max-width: 768px)
+		text-align: left
+
+	&.is-active
+		opacity: 1
+		transform: translateY(0)
+
+	h2
+		margin-bottom: 65px
+
+		&::before
+			left: 50%
+			transform: translateX(-50%)
+			bottom: -18px
+
+			@media screen and (max-width: 768px)	
+				left: 0
+				transform: none
+
+	p
+		color: $white
+		white-space: pre-line
+
+		@media screen and (max-width: 768px)	
+			white-space: normal
+
+.t-or-ms1-mh-record-r2
+	padding-bottom: 70px
+
+	& > a
+		border: 2px solid $primary
+		border-radius: 25px
+		color: $white
+		font-size: 18px
+		font-weight: 700
+		text-transform: uppercase
+		padding: 9px 0
+		text-align: center
+		margin: 0 auto
+		display: block
+		width: 182px
+		transition: all 0.35s ease
+
+		&:hover
+			background-color: $primary
+
+	article
+		display: flex
+		justify-content: space-between
+		align-items: center
+		color: $white
+		padding: 70px 0
+		// transform: translateY(200px)
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		// opacity: 0
+
+		@media screen and (max-width: 768px)
+			display: block
+			padding: 45px 0
+			
+		&.is-active
+			opacity: 1
+			transform: translateY(0)
+
+		&:not(:last-of-type)
+			border-bottom: 1px solid $white
+
+		&:nth-of-type(even)
+			div
+				order: 1
+				margin: 0 0 0 70px
+
+				@media screen and (max-width: 940px)
+					margin: 0 0 0 45px
+
+				@media screen and (max-width: 768px)
+					margin: 0 0 25px
+
+	div
+		background-size: cover
+		background-position: center top
+		background-repeat: no-repeat
+		height: 465px
+		margin-right: 70px
+		flex: 0 0 505px
+
+		@media screen and (max-width: 940px)
+			height: 350px
+			flex: 0 0 350px
+			margin-right: 45px
+
+		@media screen and (max-width: 768px)
+			margin-right: 0
+			margin-bottom: 25px
+
+	section
+		@media screen and (max-width: 768px)
+			display: flex
+			flex-direction: column
+			align-items: flex-start
+
+		h3
+			font-size: 25px
+			margin-bottom: 63px
+
+			@media screen and (max-width: 940px)
+				font-size: 20px
+				margin-bottom: 45px
+
+			&::before
+				bottom: -18px
+
+		ul
+			margin-bottom: 47px
+
+			@media screen and (max-width: 940px)
+				margin-bottom: 25px
+
+			@media screen and (max-width: 768px)	
+				order: -1
+
+		li
+			display: inline-block
+			margin-right: 2px
+
+			&:nth-of-type(even) a
+				background-color: $blue
+
+			a
+				font-size: 12px
+				font-weight: 700
+				text-transform: uppercase
+				border-radius: 3px
+				padding: 6px 4px
+				background-color: $green
+				display: block
+
+		p
+			margin-bottom: 46px
+
+			@media screen and (max-width: 940px)
+				margin-bottom: 25px
+
+			& + a
+				font-size: 18px
+				font-weight: 700
+				padding: 0 16px
+				display: inline-flex
+				flex-shrink: 0
+				flex

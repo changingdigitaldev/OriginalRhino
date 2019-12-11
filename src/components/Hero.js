@@ -4,6 +4,9 @@ import curve from '../images/banner/curve-top.svg'
 
 class Hero extends React.Component {
 	render() {
+
+
+
 		return (
 			<React.Fragment>
 			<div className={`t-or-ms1-mh-hero ${this.props.content.classModifier}`}>
@@ -11,7 +14,7 @@ class Hero extends React.Component {
 					<div className="t-or-ms1-mh-hero-r1">
 						<div className="t-or-ms1-mh-hero-img">
 							<img src={this.props.content.staticImage} alt=""/>
-							{this.props.content.images.map((image) => <span style={{backgroundImage: `url(${image})`}}></span>)}
+							{this.props.content.images.map((image) => <span style={{backgroundImage: `url(${ this.props.content.images ? image : '' })`}}></span>)}
 						</div>
 						<section>
 							<h1 className="t-or-ms1-mh-section-heading fade-up">{this.props.content.pageName}</h1>

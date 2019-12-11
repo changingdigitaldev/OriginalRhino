@@ -1,0 +1,212 @@
+.t-or-ms1-mh-search
+	display: flex
+	justify-content: space-between
+	align-items: flex-start
+	padding-top: 51px
+
+	@media screen and (max-width: 768px)
+		display: block
+
+	ul
+		@media screen and (max-width: 768px)
+			display: flex
+			align-items: center
+			justify-content: center
+			margin-bottom: 15px
+
+	li
+		color: $white
+		border-radius: 25px
+		padding: 12px 18px
+		display: inline-block
+		font-size: 18px
+		font-weight: 700
+		text-transform: uppercase
+		cursor: pointer
+		border: 2px solid $primary
+
+		@media screen and (max-width: 940px)
+			font-size: 12px
+
+		@media screen and (max-width: 768px)	
+			padding: 12px 10px
+			font-size: 10px
+
+		&:hover
+			background-color: $primary
+			color: $white
+
+	div
+		@media screen and (max-width: 768px)
+			display: flex
+			justify-content: center
+			align-items: center
+
+	fieldset
+		width: 282px
+		position: relative
+		margin-bottom: 14px
+
+		@media screen and (max-width: 940px)
+			width: 170px
+
+		@media screen and (max-width: 768px)
+			margin-bottom: 0
+			margin-right: 10px
+
+		input
+			width: 100%
+			border: 2px solid $primary
+			background-color: transparent
+			border-radius: 25px
+			color: $white
+			font-size: 18px
+			font-weight: 700
+			text-transform: uppercase
+			padding: 0 35px 0 14px
+			height: 45px
+
+			@media screen and (max-width: 940px)
+				font-size: 12px
+
+			&::placeholder
+				color: $white
+				font-size: 18px
+				font-weight: 700
+				text-transform: uppercase
+
+				@media screen and (max-width: 940px)
+					font-size: 12px
+
+		button
+			background-color: transparent
+			background-image: url('../images/icon-search.svg')
+			width: 13px
+			height: 13px
+			border: none
+			background-size: cover
+			background-repeat: no-repeat
+			position: absolute
+			top: 15px
+			right: 16px
+			cursor: pointer
+
+			&:focus
+				outline: none
+
+	p
+		color: $white
+		font-size: 12px
+		text-align: right
+
+		span
+			font-weight: 700
+			position: relative
+			cursor: pointer
+
+			&::after
+				display: inline-block
+				position: relative
+				content: ''
+				border-style: solid
+				border-width: 5px 3px 0 3px
+				border-color: $primary transparent transparent transparent
+				margin-left: 3px
+
+.t-or-ms1-mh-search-record
+
+	li
+		color: $white
+		border-radius: 25px
+		padding: 12px 18px
+		display: inline-block
+		font-size: 18px
+		font-weight: 700
+		text-transform: uppercase
+		cursor: pointer
+		border: none
+
+		@media screen and (max-width: 940px)
+			font-size: 12px
+
+		@media screen and (max-width: 768px)	
+			padding: 12px 10px
+			font-size: 10px
+
+		&:not(:last-of-type)
+			margin-right: 6px
+
+		&:nth-of-type(1)
+			background-color: $primary
+
+		&:nth-of-type(2)
+			background-color: $green
+
+		&:nth-of-type(3)
+			background-color: $blue
+
+		span
+			display: inline-block
+			width: 6px
+			height: 6px
+			transform: rotate(45deg)
+			border-width: 0 1px 1px 0
+			border-style: solid
+			border-color: $white
+			position: relative
+			top: -4px
+			margin-left: 3px
+			cursor: pointer
+
+.t-or-ms1-mh-search-latest
+	padding: 38px 0 44px
+	// transform: translateY(200px)
+	transition-property: opacity, transform
+	transition-duration: 1s
+	transition-timing-function: ease-out
+	// opacity: 0
+	
+	&.is-active
+		opacity: 1
+		transform: translateY(0)
+
+	div
+		@media screen and (max-width: 460px)
+			justify-content: flex-start
+
+	ul
+		@media screen and (max-width: 460px)
+			justify-content: flex-start
+			align-items: flex-start
+
+	li
+
+		@media screen and (max-width: 768px)
+			padding: 12px 18px
+
+		&:nth-of-type(2)
+			background-color: transparent
+			border: 2px solid $primary 
+
+		&:nth-of-type(3)
+			background-color: transparent
+			border: 2px solid $primary 
+
+		&:hover
+			background-color: none
+			background-image: $linear-gradient-hover
+
+.t-or-ms1-mh-search-upcoming
+	&.is-active
+		ul,
+		div
+			opacity: 1
+			transform: translateY(0)
+
+	ul,
+	div
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		// opacity: 0
+		// transform: translateY(200px)
