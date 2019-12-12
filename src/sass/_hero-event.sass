@@ -1,0 +1,79 @@
+.t-or-ms1-mh-hero-event
+	&::before
+		position: absolute
+		bottom: 140px
+		left: -53px
+		content: ''
+		background-image: url('../images/decor/decor-02.svg')
+		background-position: center
+		background-repeat: no-repeat
+		background-size: contain
+		width: 174px
+		height: 214px
+		z-index: 3
+		transform: rotate(7deg)
+
+		@media screen and (max-width: 1366px)
+			display: none
+
+	.t-or-ms1-mh-hero-r1
+
+		img
+			max-width: 470px
+			opacity: 0
+			position: relative
+			z-index: 2
+
+			@media screen and (max-width: 1200px)
+				max-width: 390px
+
+			@media screen and (max-width: 768px)
+				opacity: 1
+
+	.t-or-ms1-mh-hero-img
+		position: relative
+		width: 470px
+		height: 285px
+
+		@media screen and (max-width: 768px)
+			width: auto
+			height: auto
+
+		span
+			position: absolute
+			background-position: center
+			background-size: contain
+			background-repeat: no-repeat
+			// opacity: 0
+
+			@media screen and (max-width: 768px)
+				display: none
+
+
+			&:nth-of-type(1)
+				height: 277px
+				width: 405px
+				top: 0
+				left: 32px
+				// transform: translateY(-200px)
+
+			&:nth-of-type(2)
+				height: 131px
+				width: 131px
+				bottom: 72px
+				right: 0
+				// transform: translateY(-200px)
+
+			&:nth-of-type(3)
+				width: 75px
+				height: 138px
+				bottom: 0
+				left: 0
+				// transform: translateX(-200px)
+
+			&:nth-of-type(4)
+				width: 63px
+				height: 120px
+				bottom: 0
+				right: 42px
+				// transform: translateX(200px)

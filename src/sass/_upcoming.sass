@@ -1,0 +1,75 @@
+.t-or-ms1-mh-upcoming
+
+.t-or-ms1-mh-upcoming-r1
+	text-align: center
+	padding: 48px 0 17px
+
+	&.is-active
+		h2,
+		p
+			opacity: 1
+			transform: translateY(0) 
+
+	h2
+		margin-bottom: 61px
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		// opacity: 0
+		// transform: translateY(200px)
+
+		&::before
+			left: 50%
+			transform: translateX(-50%)
+
+	p
+		color: $white
+		font-size: 16px
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		transition-delay: 100ms
+		// opacity: 0
+		// transform: translateY(200px)
+
+.t-or-ms1-mh-upcoming-r2
+	margin-top: 66px
+
+	&.is-active
+		.t-or-ms1-mh-schedule
+			opacity: 1
+			transform: translateY(0)
+
+
+	.t-or-ms1-mh-schedule
+		transition-property: opacity, transform
+		transition-duration: 1s
+		transition-timing-function: ease-out
+		transition-delay: 100ms
+		// opacity: 0
+		// transform: translateY(200px)
+
+		&:nth-of-type(2)
+			transition-delay: 250ms
+
+.t-or-ms1-mh-upcoming-r3
+	display: flex
+	justify-content: center
+	margin-top: 70px
+	padding-bottom: 63px
+
+	a
+		display: flex
+		justify-content: center
+		align-items: center
+		color: $white
+		font-size: 18px
+		font-weight: 700
+		height: 45px
+		width: 182px
+		border-radius: 25px
+		border: 2px solid $primary
+		text-transform: uppercase
+
+		&:hover
+			background-color: $primary
