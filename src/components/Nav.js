@@ -11,7 +11,7 @@ class Nav extends React.Component {
 							<li><a href="/about">ABOUT</a></li>
 							<li><a href="/services">SERVICES</a></li>
 							<li><a href="/our-work">OUR WORK</a></li>
-							<li><a href="">NEWS & INSIGHTS</a></li>
+							<li><a href="/news">NEWS & INSIGHTS</a></li>
 							<li><a href="/event">EVENTS</a></li>
 							<li><a href="">CONTACT</a></li>
 							<li><a href="/career">CAREERS</a></li>

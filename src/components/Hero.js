@@ -5,15 +5,16 @@ import curve from '../images/banner/curve-top.svg'
 class Hero extends React.Component {
 	render() {
 
-
+		let classModifier = this.props.content.classModifier ? this.props.content.classModifier : '';
+		let staticImage = this.props.content.staticImage ? this.props.content.staticImage : '';
 
 		return (
 			<React.Fragment>
-			<div className={`t-or-ms1-mh-hero ${this.props.content.classModifier}`}>
+			<div className={`t-or-ms1-mh-hero ${classModifier}`}>
 				<div className="t-or-ms1-mh-container">
 					<div className="t-or-ms1-mh-hero-r1">
 						<div className="t-or-ms1-mh-hero-img">
-							<img src={this.props.content.staticImage} alt=""/>
+							<img src={staticImage} alt=""/>
 							{this.props.content.images.map((image) => <span style={{backgroundImage: `url(${ this.props.content.images ? image : '' })`}}></span>)}
 						</div>
 						<section>

@@ -27,7 +27,7 @@ class Event extends React.Component {
 			<React.Fragment>
 				<Hero content={content}/>
 				<UpcomingEvent/> 
-				<Quote />
+				<Quote modifier="t-or-ms1-mh-quote-alt"/>
 			</React.Fragment> 
 		)
 	}
